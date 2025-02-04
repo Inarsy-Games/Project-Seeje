@@ -11,3 +11,5 @@ vsp = 0;
 move_spd = 0.5;
 selected = false;
 target = [x, y];
+
+hp = 1000;

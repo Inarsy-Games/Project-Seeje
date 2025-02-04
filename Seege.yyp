@@ -41,6 +41,7 @@
     {"id":{"name":"oSwipe","path":"objects/oSwipe/oSwipe.yy",},},
     {"id":{"name":"oUnit","path":"objects/oUnit/oUnit.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"aReplaceColour","path":"shaders/aReplaceColour/aReplaceColour.yy",},},
     {"id":{"name":"sBlaster","path":"sprites/sBlaster/sBlaster.yy",},},
     {"id":{"name":"sCastle","path":"sprites/sCastle/sCastle.yy",},},

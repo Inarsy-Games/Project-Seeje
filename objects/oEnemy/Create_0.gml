@@ -5,10 +5,10 @@ event_inherited();
 hsp = 0;
 vsp = 0;
 move_spd = 1;
+acc = 0.1;
 
-target = oCastle; 
 attack_cooldown = 0;
 dir = 0;
 
 //function to attack
-self.attack = function() { /* Default or empty function */ };
+self.attack = function(_dmg_target) { /* Default or empty function */ };

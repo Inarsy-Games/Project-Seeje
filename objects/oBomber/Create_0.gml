@@ -5,8 +5,9 @@
 event_inherited();
 
 //redefine attack function
-self.attack = function() { 
+self.attack = function(_dmg_target) { 
 	
-	show_message("Pow");
+	_dmg_target.hp -= 1;
+	dir += 180;
 	
 };
