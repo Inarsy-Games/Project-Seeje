@@ -27,10 +27,10 @@ image_angle = 0;
 //cooldowns and things
 attack_cooldown -= 1;
 
-if instance_exists(oEnemy) and !moving {
+if instance_exists(oBomber) and !moving {
 	
 	//get closest enemy
-	closest_enemy = instance_nearest(x, y, oEnemy);
+	closest_enemy = instance_nearest(x, y, oBomber);
 
 	if closest_enemy != noone {
 	

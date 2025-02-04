@@ -8,6 +8,6 @@ y = room_height/2;
 //move around
 hsp = 0;
 vsp = 0;
-move_spd = 1;
+move_spd = 0.5;
 selected = false;
 target = [x, y];
