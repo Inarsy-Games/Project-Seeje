@@ -9,5 +9,8 @@ self.attack = function(_dmg_target) {
 	
 	_dmg_target.hp -= 1;
 	dir += 180;
+	move_spd = 5;
 	
 };
+
+

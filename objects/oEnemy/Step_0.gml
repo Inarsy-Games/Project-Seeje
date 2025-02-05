@@ -3,6 +3,7 @@ var _tar = point_direction(x, y, oCastle.x, oCastle.y);
 var _diff = angle_difference(dir, _tar);
 dir -= min(abs(_diff), rotation_speed) * sign(_diff);
 
+move_spd = approach(move_spd, 1, acc);
 hsp = lengthdir_x(move_spd, dir);
 vsp = lengthdir_y(move_spd, dir);
 
