@@ -25,6 +25,7 @@ else
 image_angle = 0;
 
 //cooldowns and things
+if attack_cooldown > 0
 attack_cooldown -= 1;
 
 if instance_exists(oBomber) and !moving {

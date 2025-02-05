@@ -1,7 +1,7 @@
 //[enemy, cooldown, timer]
 enemies = [
 
-[oBomber, 10*60, 0],
+[oBomber, 5*60, 0],
 ["anotherenemyidk", 10*60, 0]
 
 ];
